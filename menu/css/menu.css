@@ -135,5 +135,11 @@ ul #sub-menu > li:hover {
 #footer {
   width: 980px;
   height: 30px;
-  background: pink;
+  background: #78b43d;
+}
+#footer_child a {
+  width: 657px;
+  height: 25px;
+  color: #ffffff;
+  font: 13px Arial;
 }
