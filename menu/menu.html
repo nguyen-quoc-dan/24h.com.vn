@@ -4,12 +4,35 @@
     <meta charset="utf-8">
     <title>Menu 24h.com.vn</title>
     <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <script src="js/main.js"></script>
   </head>
-  <body>
+  <body onload="showSlide();">
     <div id="wrapper">
       <!-- HEADER -->
       <div id="header">
-        <img src="images/banner/banner_03.jpeg" alt="anh_dep">
+        <div class="slide-banner slide">
+          <img src="images/banner/banner_01.jpeg" alt="anh_dep">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="slide-banner slide">
+          <img src="images/banner/banner_02.jpeg" alt="anh_dep">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="slide-banner slide">
+          <img src="images/banner/banner_03.jpeg" alt="anh_dep">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <a class="prev-slider" onclick="">&#10094;</a>
+        <a class="next-slider" onclick="">&#10095;</a>
+
+        <div id="dot-contain">
+          <span class="dotted" onclick=""></span>
+          <span class="dotted" onclick=""></span>
+          <span class="dotted" onclick=""></span>
+        </div>
       </div>
       <!-- END HEADER -->
 
@@ -153,7 +176,30 @@
       <!-- chong tran -->
       <div class="clear"></div>
 
-      <div id="footer">Footer</div>
+
+      <!-- footer -->
+      <div id="footer">
+        <p class="copyright">Hsuperdev | hoantn.superdev@gmail.com</p>
+
+        <ul class="links">
+          <li>
+            <a href="https://mycv.vn">Trang chủ</a>
+          </li>
+
+          <li>
+            <a href="https://mycv.vn">Giới thiệu</a>
+          </li>
+
+          <li>
+            <a href="https://mycv.vn">Liên hệ</a>
+          </li>
+
+          <li>
+            <a href="https://mycv.vn">Chính sách sử dụng</a>
+          </li>
+        </ul>
+
+      </div>
     </div>
   </body>
 </html>
