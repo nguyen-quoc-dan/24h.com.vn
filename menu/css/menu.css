@@ -132,7 +132,7 @@ a {
 /* MENU CON */
 ul #sub-menu {
   width: 195px;
-  height: 510px;
+  height: auto;
   background: #aad862;
   position: absolute;
   top: 50px;
@@ -149,6 +149,7 @@ ul #sub-menu > li {
 
 ul #sub-menu > li:hover {
   background: #78b43d;
+  color: #ffffff;
 }
 /* KT MENU CON */
 
