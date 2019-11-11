@@ -28,9 +28,9 @@ a {
   position: relative;
 }
 
-#header .slide-banner {
+/* #header .slide-banner {
   display: none;
-}
+} */
 
 .prev-slider, .next-slider {
   cursor: pointer;
@@ -145,12 +145,14 @@ ul #sub-menu > li {
   height: 30px;
   line-height: 30px;
   padding-left: 10px;
+  position: relative;
 }
 
 ul #sub-menu > li:hover {
   background: #78b43d;
   color: #ffffff;
 }
+
 /* KT MENU CON */
 
 #menu > ul {
@@ -173,6 +175,37 @@ ul #sub-menu > li:hover {
 #menu > ul > li:hover {
   background: #609a26;
 }
+
+/* MENU CHÁU */
+ #sub-menu-child {
+  position: absolute;
+  left: 195px;
+  top: 0px;
+  width: 195px;
+  background: #aad862;
+}
+
+#sub-menu-child > li {
+  list-style: none;
+  border-bottom: 1px solid #78b43d;
+  padding-left: 10px;
+}
+
+
+#sub-menu-child > li {
+  display: none;
+}
+
+ul #sub-menu-child > li:hover {
+  background: #609a26;
+  color: #ffffff;
+}
+
+.menu-child #sub-menu li:hover #sub-menu-child li  {
+  display: block;
+  color: #000;
+}
+
 
 #container {
   width: 980px
