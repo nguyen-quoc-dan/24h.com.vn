@@ -4,29 +4,28 @@
     <meta charset="utf-8">
     <title>Menu 24h.com.vn</title>
     <link rel="stylesheet" href="css/menu.css" type="text/css">
-    <script src="js/main.js"></script>
   </head>
   <body onload="showSlide();">
     <div id="wrapper">
       <!-- HEADER -->
       <div id="header">
         <div class="slide-banner slide">
-          <img src="images/banner/banner_01.jpeg" alt="anh_dep" >
+          <img class="mySlides" src="images/banner/banner_01.jpeg" alt="anh_dep" >
           <div class="text">Caption Text</div>
         </div>
 
         <div class="slide-banner slide">
-          <img src="images/banner/banner_02.jpeg" alt="anh_dep" style="display: none;">
+          <img class="mySlides" src="images/banner/banner_02.jpeg" alt="anh_dep" style="display: none;">
           <div class="text">Caption Text</div>
         </div>
 
         <div class="slide-banner slide">
-          <img src="images/banner/banner_03.jpeg" alt="anh_dep" style="display: none;">
+          <img class="mySlides" src="images/banner/banner_03.jpeg" alt="anh_dep" style="display: none;">
           <div class="text">Caption Text</div>
         </div>
 
-        <a class="prev-slider" onclick="">&#10094;</a>
-        <a class="next-slider" onclick="">&#10095;</a>
+        <a class="prev-slider" onclick="plusDivs(-1)">&#10094;</a>
+        <a class="next-slider" onclick="plusDivs(+1)">&#10095;</a>
 
         <div id="dot-contain">
           <span class="dotted" onclick=""></span>
@@ -288,5 +287,6 @@
 
       </div>
     </div>
+  <script src="js/main.js"></script>
   </body>
 </html>
