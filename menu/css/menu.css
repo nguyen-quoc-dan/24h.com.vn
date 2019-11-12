@@ -206,25 +206,75 @@ ul #sub-menu-child > li:hover {
   color: #000;
 }
 
-
+/* CONTAINER */
 #container {
   width: 980px
   height: 1000px;
 }
 
-#left-contain {
-  width: 50%;
-  height: 1000px;
-  background: blue;
-  float: left;
+.contain {
+  /* background: #ccc; */
+  min-height: 300px;
+  display: flex;
 }
 
-#right-contain {
-  width: 50%;
-  height: 1000px;
-  background: #ccc;
-  float: left;
+.left-contain {
+  width: 70%;
+  min-height: 1000px;
+  display: flex;
+  padding-top: 10px;
 }
+
+.left-contain-child, .right-contain-child {
+  width: 500%;
+}
+
+.left-contain-child {
+  padding-left: 2px;
+}
+
+.left-contain-child li {
+  line-height: 4vh;
+}
+
+.left-contain-child li:hover {
+  cursor: pointer;
+}
+
+.contain-picture p{
+  padding-left: 10px;
+}
+
+.start-text {
+  background: #eaf8d2;
+}
+
+.start-text::before, .end-text::before {
+  content: "- ";
+}
+
+.end-text {
+  background: #d5ecab;
+}
+
+.left-contain-child ul li {
+  list-style: none;
+}
+
+.contain-picture {
+  display: flex;
+}
+
+.right-contain {
+  width: 30%;
+  min-height: 300px;
+}
+
+.right-contain img {
+  margin-left: 3px;
+}
+
+/* END CONTAINER */
 
 #footer {
   width: 980px;
