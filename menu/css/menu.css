@@ -214,19 +214,19 @@ ul #sub-menu-child > li:hover {
 
 .contain {
   /* background: #ccc; */
-  min-height: 300px;
+
   display: flex;
 }
 
 .left-contain {
   width: 70%;
-  min-height: 1000px;
+  min-height: 100px;
   display: flex;
   padding-top: 10px;
 }
 
 .left-contain-child, .right-contain-child {
-  width: 500%;
+  width: 500px;
 }
 
 .left-contain-child {
@@ -260,6 +260,7 @@ ul #sub-menu-child > li:hover {
 .left-contain-child ul li {
   list-style: none;
 }
+
 
 .contain-picture {
   display: flex;
